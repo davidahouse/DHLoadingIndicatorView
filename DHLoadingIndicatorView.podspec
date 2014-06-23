@@ -7,31 +7,23 @@
 Pod::Spec.new do |s|
   s.name             = "DHLoadingIndicatorView"
   s.version          = File.read('VERSION')
-  s.summary          = "A short description of DHLoadingIndicatorView."
+  s.summary          = "A view that displays an activity indicator and optional text label"
   s.description      = <<-DESC
-                       An optional longer description of DHLoadingIndicatorView
+                       DHLoadingIndicatorView is a view to use when you are loading content in the
+                       background and want to let the user know that something is happening. The view
+                       contains an animated activity indicator along with an optional text label.
 
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       There are many customizable features of the view to fit your UI.
                        DESC
-  s.homepage         = "http://EXAMPLE/NAME"
-  s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://www.github.com/davidahouse/DHLoadingIndicatorView"
   s.license          = 'MIT'
   s.author           = { "David House" => "davidahouse@gmail.com" }
-  s.source           = { :git => "http://EXAMPLE/NAME.git", :tag => s.version.to_s }
-  s.social_media_url = 'https://twitter.com/EXAMPLE'
+  s.source           = { :git => "https://www.github.com/davidahouse/DHLoadingIndicatorView.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/davidahouse'
 
-  # s.platform     = :ios, '5.0'
-  # s.ios.deployment_target = '5.0'
-  # s.osx.deployment_target = '10.7'
+  s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Classes'
   s.resources = 'Assets/*.png'
-
-  s.ios.exclude_files = 'Classes/osx'
-  s.osx.exclude_files = 'Classes/ios'
-  # s.public_header_files = 'Classes/**/*.h'
-  # s.frameworks = 'SomeFramework', 'AnotherFramework'
-  # s.dependency 'JSONKit', '~> 1.4'
 end
