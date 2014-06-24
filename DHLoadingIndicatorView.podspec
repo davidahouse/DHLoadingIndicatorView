@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = "DHLoadingIndicatorView"
-  s.version          = File.read('VERSION')
+  s.version          = "0.1.0"
   s.summary          = "A view that displays an activity indicator and optional text label"
   s.description      = <<-DESC
                        DHLoadingIndicatorView is a view to use when you are loading content in the
@@ -18,12 +18,11 @@ Pod::Spec.new do |s|
   s.homepage         = "https://www.github.com/davidahouse/DHLoadingIndicatorView"
   s.license          = 'MIT'
   s.author           = { "David House" => "davidahouse@gmail.com" }
-  s.source           = { :git => "https://www.github.com/davidahouse/DHLoadingIndicatorView.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/davidahouse/DHLoadingIndicatorView.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/davidahouse'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Classes'
-  s.resources = 'Assets/*.png'
 end

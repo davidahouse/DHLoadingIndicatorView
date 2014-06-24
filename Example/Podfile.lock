@@ -1,0 +1,14 @@
+PODS:
+  - DHLoadingIndicatorView (0.1.0)
+
+DEPENDENCIES:
+  - DHLoadingIndicatorView (from `../`)
+
+EXTERNAL SOURCES:
+  DHLoadingIndicatorView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DHLoadingIndicatorView: 4b93c6e7ecaf4bb57821f8ef234343bb718c8a0a
+
+COCOAPODS: 0.33.1
