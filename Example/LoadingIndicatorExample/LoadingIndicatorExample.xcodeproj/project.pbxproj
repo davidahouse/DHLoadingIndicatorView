@@ -21,6 +21,7 @@
 		9470EE2E195876F500BA50D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9470EE10195876F500BA50D0 /* UIKit.framework */; };
 		9470EE36195876F500BA50D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9470EE34195876F500BA50D0 /* InfoPlist.strings */; };
 		9470EE38195876F500BA50D0 /* LoadingIndicatorExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9470EE37195876F500BA50D0 /* LoadingIndicatorExampleTests.m */; };
+		94F4099A195908F20098BE66 /* DHLoadingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94F40999195908F20098BE66 /* DHLoadingIndicatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9470EE33195876F500BA50D0 /* LoadingIndicatorExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LoadingIndicatorExampleTests-Info.plist"; sourceTree = "<group>"; };
 		9470EE35195876F500BA50D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9470EE37195876F500BA50D0 /* LoadingIndicatorExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoadingIndicatorExampleTests.m; sourceTree = "<group>"; };
+		94F40998195908F20098BE66 /* DHLoadingIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHLoadingIndicatorView.h; sourceTree = "<group>"; };
+		94F40999195908F20098BE66 /* DHLoadingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHLoadingIndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				9470EE22195876F500BA50D0 /* ViewController.m */,
 				9470EE24195876F500BA50D0 /* Images.xcassets */,
 				9470EE13195876F500BA50D0 /* Supporting Files */,
+				94F40998195908F20098BE66 /* DHLoadingIndicatorView.h */,
+				94F40999195908F20098BE66 /* DHLoadingIndicatorView.m */,
 			);
 			path = LoadingIndicatorExample;
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9470EE23195876F500BA50D0 /* ViewController.m in Sources */,
+				94F4099A195908F20098BE66 /* DHLoadingIndicatorView.m in Sources */,
 				9470EE1D195876F500BA50D0 /* AppDelegate.m in Sources */,
 				9470EE19195876F500BA50D0 /* main.m in Sources */,
 			);
@@ -456,6 +462,7 @@
 				9470EE3D195876F500BA50D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9470EE3E195876F500BA50D0 /* Build configuration list for PBXNativeTarget "LoadingIndicatorExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				9470EE40195876F500BA50D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
