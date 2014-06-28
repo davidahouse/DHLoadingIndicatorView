@@ -28,7 +28,7 @@ available proporties that can be used to customize the view.
 
 Examples:
 
-![Basic](https://www.github.com/davidahouse/DHLoadingIndicatorView/IndicatorViewExample_Basic.png)
+![Basic](https://www.github.com/davidahouse/DHLoadingIndicatorView/blob/master/IndicatorViewExample_Basic.png)
 
 ![Changed Font](https://www.github.com/davidahouse/DHLoadingIndicatorView/IndicatorViewExample_Font.png)
 
