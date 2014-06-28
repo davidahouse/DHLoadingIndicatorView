@@ -1,12 +1,6 @@
-#
-# Be sure to run `pod lib lint NAME.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 Pod::Spec.new do |s|
   s.name             = "DHLoadingIndicatorView"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A view that displays an activity indicator and optional text label"
   s.description      = <<-DESC
                        DHLoadingIndicatorView is a view to use when you are loading content in the
