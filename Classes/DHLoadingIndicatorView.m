@@ -20,6 +20,7 @@
 
 @implementation DHLoadingIndicatorView
 
+#pragma mark - Initializer
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
